@@ -10,7 +10,7 @@ function Other(){
     <div class="right-left ">
     <div class="bottom">
       <p class="size">UPI
-       <Link to="/qr"><a class="right">Change</a></Link> 
+       <Link to="/qr" className="right">Change</Link> 
       </p>
     </div> 
        
