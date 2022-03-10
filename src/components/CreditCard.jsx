@@ -6,7 +6,7 @@ function Credit(){
    return (<div>
      <div>
        <p class="size">Credit/Debit Card
-        <Link to="/more"><a class="right" >Change</a></Link></p>
+        <Link to="/more" className="right">Change</Link></p>
        </div>
        <div class="bottom">
         <p>Card Number</p>
