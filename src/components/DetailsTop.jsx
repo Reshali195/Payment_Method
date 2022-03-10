@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {Link} from "react-router-dom";
 import "../styles/styles.css";
 
@@ -7,7 +7,7 @@ function Second(){
     <div className="Comment">
       <div>
         <p className="size">purpose of payment
-       <Link to="/home"><a class="right">Change</a></Link> </p>
+       <Link to="/home" className="right">Change</Link> </p>
         <div className="bottom black">Instapay</div>
        </div>
        
