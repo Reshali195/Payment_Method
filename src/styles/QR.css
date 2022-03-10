@@ -1,0 +1,46 @@
+canvas{
+    width:200px;
+    height:200px;
+    background-color:black;
+  }
+  .center{
+    text-align:center;
+  }
+  #amount{
+    font-size:20px;
+      
+  }
+  .margin{
+    margin-top:10px;
+  }
+  .top-bottom-large{
+    margin-top:15px;
+    margin-bottom:15px;
+    
+  }
+  .bold{
+    font-weight:bold;
+  }
+  .small-text{
+    font-size:12px !important;
+  }
+  hr{
+     color: #192a38;
+    opacity:0.2;
+  }
+  .top{
+    margin-top:18px;
+  }
+  .border{
+    border-style: dotted;
+     border-color: #e9f0ea;
+  }
+  .top-large{
+    margin-top:30px;
+     margin-bottom:8px;
+  }
+  
+  .bottom-only{
+     margin-bottom:15px;
+  }
+  
