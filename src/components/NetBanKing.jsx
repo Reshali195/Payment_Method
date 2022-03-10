@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {Link} from "react-router-dom";
 import "../styles/styles.css";
 
@@ -8,7 +8,7 @@ function Net(){
      <div className="right-left">
     <div className="bottom">
       <p className="size">purpose of payment
-        <Link to="/more"> <a class="right" href="#">Change</a></Link>
+        <Link to="/more" className="right"> Change</Link>
       </p>
     </div> 
        
