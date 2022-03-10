@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import {Link,Redirect} from "react-router-dom";
+import React from "react";
+import {Link} from "react-router-dom";
 import "../styles/styles.css";
 // //import validator from 'validator'
 // import TextField from "@material-ui/core/TextField";
