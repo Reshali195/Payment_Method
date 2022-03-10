@@ -13,9 +13,7 @@ function Third(){
   const [isSubmit,setIsSubmit]=useState(false);
    
    useEffect(()=>{ 
-    if(Object.keys(formErrors).length === 0 && isSubmit){
-      console.log(formValues);
-    }
+
   },[formErrors])  
    
    
