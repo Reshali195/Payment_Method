@@ -23,12 +23,16 @@ function Third(){
     e.preventDefault();
     setFormErrors(Validate(formValues));
   }
-  
+  const hideSelf = () => {
+        // In our case, this simply dispatches a Redux action
+    };
   useEffect(()=>{ 
     if(Object.keys(formErrors).length === 0 && isSubmit){
       console.log(formValues);
     }
-    
+     setTimeout(() => {
+            hideSelf();
+        }, 15000);
   },[formErrors])
   
   const Validate=(values)=>{
